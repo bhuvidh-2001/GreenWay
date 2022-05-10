@@ -1,0 +1,22 @@
+{
+  "name": "greenway",
+  "version": "1.0.0",
+  "description": "An agricultural website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhuvidh-2001/GreenWay.git"
+  },
+  "author": "Bhuvidh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhuvidh-2001/GreenWay/issues"
+  },
+  "homepage": "https://github.com/bhuvidh-2001/GreenWay#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
