@@ -543,7 +543,7 @@ header a {
     grid-template-rows: auto;
     grid-gap: 20px;
 }
-}
+
 
 @media (min-width: 30em) {
     .band {
