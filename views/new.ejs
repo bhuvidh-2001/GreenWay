@@ -1,0 +1,30 @@
+<%- include('./partials/header') %>
+
+
+<div class="log">
+    <h2><strong>Compose A Blog</strong></h2>
+    <form action="/blog" method="post">
+      <div class="input-cont">
+        <input type="text" name="Technology" placeholder="Technology" required>
+        
+        <div class="border1"></div>
+      </div>
+      <div class="input-cont">
+        <input type="text" name="image" placeholder="image url" required>
+        
+        <div class="border2"></div>
+      </div>
+      <div class="input-cont">
+        <input type="text" name="Use" placeholder="Use" required>
+        
+        <div class="border2"></div>
+      </div>
+   
+  
+      <div class="clear"></div>
+      <input type="submit" value="SUBMIT">   
+    </form>
+</div>
+   
+
+<%- include('./partials/footer') %>
